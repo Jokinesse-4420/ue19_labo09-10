@@ -54,5 +54,9 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 
-      - name: Aqua Security Trivy
+      - name: Scan with Aqua Security
         uses: aquasecurity/trivy-action@0.13.1
+        with:
+          image-ref: $DOCKER_USERNAME/ue19_labo09-10:latest
+          format: table
+          exit-code: 0
