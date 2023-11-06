@@ -16,7 +16,7 @@ Pour exécuter ce programme, suivez ces étapes :
 ### 1. Clonez le repository sur votre ordinateur :
 
 ```bash
-git clone https://github.com/[votre-nom]/pun-generator.git
+https://github.com/Jokinesse-4420/ue19_labo09-10
 ```
 
 ### 2. Installez les dépendances :
