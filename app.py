@@ -1,7 +1,7 @@
 import requests
 
 api = "https://punapi.rest/api/pun"
-
+print('hello')
 response = requests.get(api)
 
 if response.status_code == 200:
