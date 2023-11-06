@@ -23,10 +23,26 @@ git clone https://github.com/[votre-nom]/pun-generator.git
 ```bash
 pip install -r requirements.txt
 ```
-## Comment lancer
+## Comment lancer - Terminal
 
 Vous pouvez exécuter le programme en utilisant la ligne de commande comme suit :
 
 ```bash
 python3 app.py
 ```
+## Comment lancer - Docker
+
+Vous pouvez exécuter le programme en utilisant Docker comme suit :
+
+### Monté l'image docker
+```bash
+docker build -t pun-generator .
+```
+
+### Lancer l'image docker
+```bash
+docker run pun-generator
+```
+
+
+
