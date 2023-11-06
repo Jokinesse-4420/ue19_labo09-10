@@ -57,6 +57,6 @@ jobs:
       - name: Scan with Aqua Security
         uses: aquasecurity/trivy-action@0.13.1
         with:
-          image-ref: $DOCKER_USERNAME/ue19_labo09-10:latest
+          image-ref: ${{ secrets.DOCKER_PASSWORD }}/ue19_labo09-10:latest
           format: table
           exit-code: 0
